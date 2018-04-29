@@ -1,0 +1,22 @@
+{
+    "name": "cecawear",
+    "version": "1.0.0",
+    "description": "=== Leto ===",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^2.23.7",
+        "gulp": "^3.9.1",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-plumber": "^1.2.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^4.0.1",
+        "gulp-uglify": "^3.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "setup": "npm install --save-dev gulp gulp-plumber gulp-rename gulp-uglify browser-sync gulp-sass gulp-minify-css"
+    },
+    "author": "",
+    "license": "ISC"
+}
